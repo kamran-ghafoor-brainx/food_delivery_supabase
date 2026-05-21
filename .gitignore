@@ -1,0 +1,114 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Auto-generated JSON files
+**/*.g.json
+**/*.freezed.json
+**/*.config.json
+**/*.gen.json
+**/*.generated.json
+.dart_tool/**/*.json
+build/**/*.json
+**/generated/*.json
+**/generated_plugin_registrant.json
+
+## Firebase configuration files
+#google-services.json
+#GoogleService-Info.plist
+
+# CMake and build related
+**/.cmake/
+**/.cxx/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+**/CTestTestfile.cmake
+**/*.ninja
+**/.ninja_deps
+**/.ninja_log
+**/build.ninja
+CMakeLists.txt.user
+CMakeScripts/
+CMakeUserPresets.json
+**/cmake-build-*/
+**/_deps/
+
+# Cache and temporary files
+**/*.cache
+**/*.tmp
+**/*.temp
+**/.gradle/
+**/local.properties
+**/.cxx/
+**/intermediates/
+**/generated/
+**/tmp/
+**/temp/
+**/.settings/
+**/.idea/caches/
+**/.idea/libraries/
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/.name
+**/.idea/compiler.xml
+**/.idea/copyright/profiles_settings.xml
+**/.idea/encodings.xml
+**/.idea/misc.xml
+**/.idea/modules.xml
+**/.idea/scopes/scope_settings.xml
+**/.idea/vcs.xml
+**/.idea/jsLibraryMappings.xml
+**/.idea/datasources.xml
+**/.idea/dataSources.ids
+**/.idea/sqlDataSources.xml
+**/.idea/dynamic.xml
+**/.idea/uiDesigner.xml
+/ios/build/*
+
+# Environment variables
+.env
